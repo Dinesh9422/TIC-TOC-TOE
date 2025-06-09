@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Djangoproject
+    name: tic-toc-toe-game
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn Djangoproject.wsgi:application

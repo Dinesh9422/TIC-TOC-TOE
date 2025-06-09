@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-r%aovds+13#dj0(vk^e-c8^vhlhu11cgkwbuba%%=dzzilw@e1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['tic-toc-toe-game-ozja.onrender.com']
+ALLOWED_HOSTS = ['tic-toc-toe-game-ozja.onrender.com', 'localhost', '127.0.0.1']
+
+
 
 
 # Application definition
