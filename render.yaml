@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: Djangoproject
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn Djangoproject.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: Djangoproject.settings
+      - key: PYTHON_VERSION
+        value: 3.12
